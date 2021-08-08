@@ -1,0 +1,73 @@
+
+.navigation ul {
+    list-style: none;
+}
+
+.navigation {
+    position: fixed;
+    width: 18.75rem;
+    height: 100%;
+    background: #003147;
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+.navigation.active {
+    width: 3rem;
+}
+
+
+.navigation ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.navigation ul li {
+    position: relative;
+    width: 100%;
+}
+
+.navigation ul li:hover {
+    background: #03a9f4;
+}
+
+.navigation ul li:nth-child(1) {
+   margin-bottom: 2em;
+   
+}
+
+
+.navigation ul li:nth-child(1):hover {
+    background: transparent;
+   
+}
+
+.navigation ul li a {
+    position: relative;
+    display: block;
+    width: 100%;
+    display: flex;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navigation ul li a .icon {
+    position: relative;
+    display: block ;
+    min-width: 3rem;
+    height: 3rem;
+    line-height: 3rem;
+    text-align: center;
+}
+
+.navigation ul li a .title {
+    position: relative;
+    display: block ;
+    min-width: 3rem;
+    height: 3rem;
+    line-height: 3rem;
+    text-align: center;
+}
+ 

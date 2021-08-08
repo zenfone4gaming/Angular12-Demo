@@ -1,0 +1,15 @@
+.main {
+    position: absolute;
+    width: calc(100% - 18.75rem);
+    left: 18.75rem;
+    min-height: 84vh;
+    background: #f5f5f5;
+    transition: 0.5s;
+    overflow: hidden;
+ 
+}
+
+.main.active {
+    width: calc(100% - 3rem);
+    left: 3rem;
+}
